@@ -6,7 +6,6 @@ def read_file(filename):
     return lines
 
 def convert(lines):
-    new = []
     person = None
     lydia_word_count = 0
     yan_word_count = 0
@@ -40,7 +39,6 @@ def convert(lines):
     print('Yan說了', yan_word_count, '字')
     print('Yan傳了', yan_sticker_count, '個貼圖')
     print('Yan傳了', yan_image_count, '張圖片')
-    return new
              
 
 def write_file(filename, lines):
